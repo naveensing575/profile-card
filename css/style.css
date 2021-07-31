@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background: hsl(185, 75%, 39%);
+	font-family: 'Kumbh Sans', sans-serif;
+	overflow: hidden;
+}
+header
+{
+	margin-top: -50rem;
+	margin-left: 510px;
+}
+.profile-card-top-svg
+{
+	height: 8rem;
+	width: 23rem;
+	border-radius: 10px 10px 0 0;
+	margin-top: 10rem;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px outset;
+}
+.top-svg
+{
+	min-height: 50rem;
+	width: 50rem;
+	transform: translate(-150px,-400px) rotate(-5deg);
+	z-index: -1;
+	position: relative;
+}
+.bottom-svg
+{
+	min-height: 50rem;
+	width: 80rem;
+	transform: translate(650px, -250px) rotate(20deg);
+	z-index: -1;
+	position: relative;
+}
+.image
+{
+	border-radius: 50%;
+	height: 6rem;
+	width: 6rem;
+	border: 5px solid white;
+	margin-top: -3em;
+	margin-left: 8em;
+}
+.profile-card-body
+{
+	height: 16rem;
+	width: 23rem;
+	background: white;
+	border-radius: 0 0 10px 10px;
+	margin-top: -4.5em;	
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.content
+{
+	padding-top: 6em;
+	font-weight: 400;
+}
+.name
+{
+	font-weight: 700;
+	padding-left: 5.5em;
+	font-size: 2ch;
+}
+.age
+{
+	color: hsl(0, 0%, 59%);
+	padding-left: 12.3em;
+	margin-top: -1.05em;
+	font-size: 1.9ch;
+}
+.city
+{
+	color: hsl(0, 0%, 59%);
+	padding-left: 10em;
+	padding-top: .8em;
+	font-size: 1.5ch;
+	padding-bottom: .5em;
+}
+.card-follow-count
+{
+	font-weight: 700;
+	font-size: 2ch;
+	padding-left: 3em;
+	padding-top: 1em;
+}
+.card-like-count
+{
+	font-weight: 700;
+	font-size: 2ch;
+	padding-left: 7.5em;
+	margin-top: -1.9em;
+}
+.card-photo-count
+{
+	font-weight: 700;
+	font-size: 2ch;
+	padding-left: 12.6em;
+	margin-top: -1.9em;
+}
+.card-follow
+{
+	padding-left: 4em;
+	font-size: 1.2ch;
+	color: hsl(0, 0%, 59%);
+	letter-spacing: .2ch;
+	padding-top: .5em;
+}
+.card-like
+{
+	padding-left: 13em;
+	font-size: 1.2ch;
+	color: hsl(0, 0%, 59%);
+	letter-spacing: .2ch;
+	padding-top: .5em;
+}
+.card-photo
+{
+	padding-left: 21em;
+	font-size: 1.2ch;	
+	color: hsl(0, 0%, 59%);
+	letter-spacing: .2ch;
+	padding-top: .5em;
+}
+footer
+{
+	margin-top: -70rem;
+	float: right;
+	color: white;
+	letter-spacing: .2ch;
+}
+a{
+	color: black;
+	outline: none;
+	text-decoration: none;
+}
