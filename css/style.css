@@ -71,17 +71,18 @@ header
 .age
 {
 	color: hsl(0, 0%, 59%);
-	padding-left: 12.3em;
+	padding-left: 13em;
 	margin-top: -1.05em;
 	font-size: 1.9ch;
 }
 .city
 {
 	color: hsl(0, 0%, 59%);
-	padding-left: 10em;
+	padding-left: 11em;
 	padding-top: .8em;
 	font-size: 1.5ch;
 	padding-bottom: .5em;
+	letter-spacing: .2ch;
 }
 .card-follow-count
 {
@@ -94,14 +95,14 @@ header
 {
 	font-weight: 700;
 	font-size: 2ch;
-	padding-left: 7.5em;
+	padding-left: 8em;
 	margin-top: -1.9em;
 }
 .card-photo-count
 {
 	font-weight: 700;
 	font-size: 2ch;
-	padding-left: 12.6em;
+	padding-left: 13em;
 	margin-top: -1.9em;
 }
 .card-follow
@@ -114,7 +115,7 @@ header
 }
 .card-like
 {
-	padding-left: 13em;
+	padding-left: 14em;
 	font-size: 1.2ch;
 	color: hsl(0, 0%, 59%);
 	letter-spacing: .2ch;
@@ -122,7 +123,7 @@ header
 }
 .card-photo
 {
-	padding-left: 21em;
+	padding-left: 22em;
 	font-size: 1.2ch;	
 	color: hsl(0, 0%, 59%);
 	letter-spacing: .2ch;
